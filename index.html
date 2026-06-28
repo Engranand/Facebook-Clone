@@ -1,232 +1,330 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Facebook Clone</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Facebook Clone</title>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
 
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/navbar.css">
-    <link rel="stylesheet" href="css/responsive.css">
+  <!-- Anand's CSS -->
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/animations.css" />
+  <link rel="stylesheet" href="css/darkmode.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+
+  <!-- Teammates CSS -->
+  <link rel="stylesheet" href="css/navbar.css" />
+  <link rel="stylesheet" href="css/sidebar.css" />
+  <link rel="stylesheet" href="css/stories.css" />
+  <link rel="stylesheet" href="css/feed.css" />
+  <link rel="stylesheet" href="css/rightbar.css" />
+
 </head>
 <body>
 
-    <nav class="navbar">
+  <!-- NAVBAR — Gagana -->
+  <nav class="navbar">
 
-        <!-- Left Section -->
-        <div class="nav-left">
-            <div class="logo">
-                <i class="fa-brands fa-facebook"></i>
-            </div>
-
-            <div class="search-box">
-                <i class="fa-solid fa-magnifying-glass"></i>
-                <input type="text" placeholder="Search Facebook">
-            </div>
-        </div>
-
-        <!-- Center Section -->
-        <div class="nav-center">
-
-            <a href="#" class="nav-item active">
-                <i class="fa-solid fa-house"></i>
-            </a>
-
-            <a href="#" class="nav-item">
-                <i class="fa-solid fa-tv"></i>
-            </a>
-
-            <a href="#" class="nav-item">
-                <i class="fa-solid fa-store"></i>
-            </a>
-
-            <a href="#" class="nav-item">
-                <i class="fa-solid fa-user-group"></i>
-            </a>
-
-            <a href="#" class="nav-item">
-                <i class="fa-solid fa-gamepad"></i>
-            </a>
-
-        </div>
-
-        <!-- Right Section -->
-        <div class="nav-right">
-
-            <div class="icon-box">
-                <i class="fa-solid fa-table-cells"></i>
-            </div>
-
-            <div class="icon-box">
-                <i class="fa-brands fa-facebook-messenger"></i>
-            </div>
-
-            <div class="icon-box notification">
-                <i class="fa-solid fa-bell"></i>
-                <span class="badge">3</span>
-            </div>
-
-            <div class="icon-box profile-icon">
-    <i class="fa-solid fa-user"></i>
-</div>
-
-        </div>
-
-    </nav>
-
-</body>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Facebook Right Sidebar</title>
-
-    <link rel="stylesheet" href="rightbar.css">
-
-    <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-</head>
-
-<body>
-
-<div class="right-sidebar">
-
-    <!-- Sponsored Section -->
-    <div class="sidebar-section">
-
-        <div class="section-header">
-            <h3>Sponsored</h3>
-        </div>
-
-        <div class="sponsored-card">
-
-            <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=300"
-                 alt="Smart Watch">
-
-            <div class="sponsored-text">
-                <h4>Smart Watch Sale</h4>
-                <p>www.amazon.in</p>
-            </div>
-
-        </div>
-
-        <div class="sponsored-card">
-
-            <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=300"
-                 alt="Nike Shoes">
-
-            <div class="sponsored-text">
-                <h4>Nike Running Shoes</h4>
-                <p>www.nike.com</p>
-            </div>
-
-        </div>
-
+    <!-- Left -->
+    <div class="nav-left">
+      <div class="logo">
+        <i class="fa-brands fa-facebook"></i>
+      </div>
+      <div class="search-box">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text" placeholder="Search Facebook" />
+      </div>
     </div>
 
-    <!-- Birthday Section -->
+    <!-- Center -->
+    <div class="nav-center">
+      <a href="#" class="nav-item active">
+        <i class="fa-solid fa-house"></i>
+      </a>
+      <a href="#" class="nav-item">
+        <i class="fa-solid fa-tv"></i>
+      </a>
+      <a href="#" class="nav-item">
+        <i class="fa-solid fa-store"></i>
+      </a>
+      <a href="#" class="nav-item">
+        <i class="fa-solid fa-user-group"></i>
+      </a>
+      <a href="#" class="nav-item">
+        <i class="fa-solid fa-gamepad"></i>
+      </a>
+    </div>
 
-    <div class="sidebar-section">
+    <!-- Right -->
+    <div class="nav-right">
+      <div class="icon-box">
+        <i class="fa-solid fa-table-cells"></i>
+      </div>
+      <div class="icon-box">
+        <i class="fa-brands fa-facebook-messenger"></i>
+      </div>
+      <div class="icon-box notification">
+        <i class="fa-solid fa-bell"></i>
+        <span class="badge">3</span>
+      </div>
+      <div class="icon-box profile-icon">
+        <i class="fa-solid fa-user"></i>
+      </div>
+    </div>
 
-        <div class="section-header">
-            <h3>Birthdays</h3>
+  </nav>
+
+  <!-- MAIN WRAPPER -->
+  <div class="wrapper">
+
+    <!-- LEFT SIDEBAR — Lahari -->
+    <aside class="left-sidebar">
+
+      <!-- Profile Shortcut -->
+      <a href="pages/profile.html" class="sidebar-profile">
+        <img src="assets/profile_pic.png" alt="Profile" class="sidebar-avatar" />
+        <span>Alex Carter</span>
+      </a>
+
+      <!-- Menu Links -->
+      <a href="#" class="sidebar-link">
+        <i class="fa-solid fa-user-group"></i>
+        <span>Friends</span>
+      </a>
+      <a href="#" class="sidebar-link">
+        <i class="fa-solid fa-clock-rotate-left"></i>
+        <span>Memories</span>
+      </a>
+      <a href="#" class="sidebar-link">
+        <i class="fa-solid fa-users"></i>
+        <span>Groups</span>
+      </a>
+      <a href="#" class="sidebar-link">
+        <i class="fa-solid fa-tv"></i>
+        <span>Watch</span>
+      </a>
+      <a href="#" class="sidebar-link">
+        <i class="fa-solid fa-store"></i>
+        <span>Marketplace</span>
+      </a>
+      <a href="#" class="sidebar-link">
+        <i class="fa-solid fa-calendar-days"></i>
+        <span>Events</span>
+      </a>
+      <a href="#" class="sidebar-link">
+        <i class="fa-solid fa-chevron-down"></i>
+        <span>See more</span>
+      </a>
+
+      <hr class="sidebar-divider" />
+
+      <!-- Shortcuts -->
+      <p class="sidebar-section-title">Your Shortcuts</p>
+      <a href="#" class="sidebar-link">
+        <i class="fa-solid fa-people-group"></i>
+        <span>NIET CSE Group</span>
+      </a>
+      <a href="#" class="sidebar-link">
+        <i class="fa-solid fa-people-group"></i>
+        <span>Web Dev Community</span>
+      </a>
+
+    </aside>
+
+    <!-- CENTER FEED — Bharti -->
+    <main class="feed">
+
+      <!-- Stories -->
+      <div class="stories">
+        <div class="story">
+          <i class="fa-solid fa-plus"></i>
+          <span>Create Story</span>
         </div>
+        <div class="story">
+          <i class="fa-solid fa-user"></i>
+          <span>Rahul</span>
+        </div>
+        <div class="story">
+          <i class="fa-solid fa-user"></i>
+          <span>Priya</span>
+        </div>
+        <div class="story">
+          <i class="fa-solid fa-user"></i>
+          <span>Aman</span>
+        </div>
+        <div class="story">
+          <i class="fa-solid fa-user"></i>
+          <span>Neha</span>
+        </div>
+      </div>
 
+      <!-- Create Post -->
+      <div class="create-post">
+        <div class="post-top">
+          <img src="assets/profile_pic.png" alt="Avatar" class="profile-pic" />
+          <input type="text" placeholder="What's on your mind, Alex?" />
+        </div>
+        <hr />
+        <div class="post-options">
+          <button><i class="fa-solid fa-video" style="color:red"></i> Live Video</button>
+          <button><i class="fa-solid fa-image" style="color:green"></i> Photo/Video</button>
+          <button><i class="fa-solid fa-face-smile" style="color:orange"></i> Feeling</button>
+        </div>
+      </div>
+
+      <!-- Post 1 -->
+      <div class="post">
+        <div class="post-top">
+          <img src="assets/profile_pic.png" alt="Avatar" class="profile-pic" />
+          <div>
+            <h4>Alex Carter</h4>
+            <small><i class="fa-solid fa-earth-americas"></i> 2 hours ago</small>
+          </div>
+        </div>
+        <p style="margin:12px 0;">Just had an amazing day at the beach! 🌊☀️ Life is good.</p>
+        <img src="assets/photo1.png" alt="Post Image" />
+        <div class="post-footer">
+          <button><i class="fa-solid fa-thumbs-up"></i> Like</button>
+          <button><i class="fa-solid fa-comment"></i> Comment</button>
+          <button><i class="fa-solid fa-share"></i> Share</button>
+        </div>
+      </div>
+
+      <!-- Post 2 -->
+      <div class="post">
+        <div class="post-top">
+          <img src="assets/profile_pic.png" alt="Avatar" class="profile-pic" />
+          <div>
+            <h4>Rahul Sharma</h4>
+            <small><i class="fa-solid fa-earth-americas"></i> 5 hours ago</small>
+          </div>
+        </div>
+        <p style="margin:12px 0;">Excited to share my new project — a full stack web app built with MERN! 🚀 #WebDev #MERN</p>
+        <img src="assets/photo2.png" alt="Post Image" />
+        <div class="post-footer">
+          <button><i class="fa-solid fa-thumbs-up"></i> Like</button>
+          <button><i class="fa-solid fa-comment"></i> Comment</button>
+          <button><i class="fa-solid fa-share"></i> Share</button>
+        </div>
+      </div>
+
+      <!-- Post 3 -->
+      <div class="post">
+        <div class="post-top">
+          <img src="assets/profile_pic.png" alt="Avatar" class="profile-pic" />
+          <div>
+            <h4>Priya Singh</h4>
+            <small><i class="fa-solid fa-earth-americas"></i> Yesterday</small>
+          </div>
+        </div>
+        <p style="margin:12px 0;">Beautiful sunset from my rooftop 🌅 Grateful for moments like these.</p>
+        <img src="assets/photo3.png" alt="Post Image" />
+        <div class="post-footer">
+          <button><i class="fa-solid fa-thumbs-up"></i> Like</button>
+          <button><i class="fa-solid fa-comment"></i> Comment</button>
+          <button><i class="fa-solid fa-share"></i> Share</button>
+        </div>
+      </div>
+
+    </main>
+
+    <!-- RIGHT SIDEBAR — Komal -->
+    <aside class="right-sidebar">
+
+      <!-- Sponsored -->
+      <div class="sidebar-section">
+        <div class="section-header">
+          <h3>Sponsored</h3>
+        </div>
+        <div class="sponsored-card">
+          <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=300" alt="Smart Watch" />
+          <div class="sponsored-text">
+            <h4>Smart Watch Sale</h4>
+            <p>www.amazon.in</p>
+          </div>
+        </div>
+        <div class="sponsored-card">
+          <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=300" alt="Nike Shoes" />
+          <div class="sponsored-text">
+            <h4>Nike Running Shoes</h4>
+            <p>www.nike.com</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Birthdays -->
+      <div class="sidebar-section">
+        <div class="section-header">
+          <h3>Birthdays</h3>
+        </div>
         <div class="birthday-box">
-
-            <i class="fa-solid fa-gift"></i>
-
-            <p>
-                <strong>Rahul</strong> and
-                <strong>2 others</strong>
-                have birthdays today.
-            </p>
-
+          <i class="fa-solid fa-gift"></i>
+          <p><strong>Rahul</strong> and <strong>2 others</strong> have birthdays today.</p>
         </div>
+      </div>
 
-    </div>
-
-    <!-- Contacts -->
-
-    <div class="sidebar-section">
-
+      <!-- Contacts -->
+      <div class="sidebar-section">
         <div class="section-header">
-            <h3>Contacts</h3>
-
-            <div class="icons">
-                <i class="fa-solid fa-video"></i>
-                <i class="fa-solid fa-magnifying-glass"></i>
-                <i class="fa-solid fa-ellipsis"></i>
-            </div>
-
+          <h3>Contacts</h3>
+          <div class="icons">
+            <i class="fa-solid fa-video"></i>
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-ellipsis"></i>
+          </div>
         </div>
-
         <div class="contact">
-            <img src="https://randomuser.me/api/portraits/men/11.jpg">
-            <span>Rahul Sharma</span>
+          <img src="https://randomuser.me/api/portraits/men/11.jpg" alt="Rahul" />
+          <span>Rahul Sharma</span>
         </div>
-
         <div class="contact">
-            <img src="https://randomuser.me/api/portraits/women/32.jpg">
-            <span>Priya Singh</span>
+          <img src="https://randomuser.me/api/portraits/women/32.jpg" alt="Priya" />
+          <span>Priya Singh</span>
         </div>
-
         <div class="contact">
-            <img src="https://randomuser.me/api/portraits/men/45.jpg">
-            <span>Aman Verma</span>
+          <img src="https://randomuser.me/api/portraits/men/45.jpg" alt="Aman" />
+          <span>Aman Verma</span>
         </div>
-
         <div class="contact">
-            <img src="https://randomuser.me/api/portraits/women/65.jpg">
-            <span>Neha Gupta</span>
+          <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Neha" />
+          <span>Neha Gupta</span>
         </div>
-
         <div class="contact">
-            <img src="https://randomuser.me/api/portraits/men/51.jpg">
-            <span>Rohit Kumar</span>
+          <img src="https://randomuser.me/api/portraits/men/51.jpg" alt="Rohit" />
+          <span>Rohit Kumar</span>
         </div>
-
         <div class="contact">
-            <img src="https://randomuser.me/api/portraits/women/44.jpg">
-            <span>Anjali Mehta</span>
+          <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Anjali" />
+          <span>Anjali Mehta</span>
         </div>
-
         <div class="contact">
-            <img src="https://randomuser.me/api/portraits/men/71.jpg">
-            <span>Arjun Patel</span>
+          <img src="https://randomuser.me/api/portraits/men/71.jpg" alt="Arjun" />
+          <span>Arjun Patel</span>
         </div>
-
         <div class="contact">
-            <img src="https://randomuser.me/api/portraits/women/28.jpg">
-            <span>Sneha Kapoor</span>
+          <img src="https://randomuser.me/api/portraits/women/28.jpg" alt="Sneha" />
+          <span>Sneha Kapoor</span>
         </div>
+      </div>
 
-    </div>
-
-    <!-- Group Conversations -->
-
-    <div class="sidebar-section">
-
+      <!-- Group Conversations -->
+      <div class="sidebar-section">
         <div class="section-header">
-            <h3>Group Conversations</h3>
+          <h3>Group Conversations</h3>
         </div>
-
         <div class="group-chat">
-
-            <div class="group-icon">
-                <i class="fa-solid fa-users"></i>
-            </div>
-
-            <span>Create New Group</span>
-
+          <div class="group-icon">
+            <i class="fa-solid fa-users"></i>
+          </div>
+          <span>Create New Group</span>
         </div>
+      </div>
 
-    </div>
+    </aside>
 
-</div>
+  </div><!-- end .wrapper -->
 
 </body>
 </html>
