@@ -11,11 +11,10 @@
 |--------|--------------------|-------------------|
 | Anand  | Team Lead + Docs   | @Engranand        |
 | Gagana | Navbar + Login     | @chennurugagana-98|
-| Lahari | Sidebar + Profile  | @lahari-username  |
-| Bharti | Feed + Stories     | @bharti-username  |
-| Komal  | Right Sidebar      | @komal-username   |
+| Lahari | Sidebar + Profile  | @LahariMP22 |
+| Bharti | Feed + Stories     | @Bharathi-82  |
+| Komal  | Right Sidebar      | @Komal-ai-12 |
 
-> NIET Greater Noida | AKTU | B.Tech IT | 2025-26
 
 ---
 
