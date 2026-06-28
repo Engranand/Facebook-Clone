@@ -1,7 +1,29 @@
+@media (max-width:768px){
+
+    .nav-center{
+        display:none;
+    }
+
+    .search-box{
+        padding:8px 10px;
+    }
+
+    .search-box input{
+        width:80px;
+    }
+
+    .nav-right{
+        gap:6px;
+    }
+
+    .icon-box{
+        width:36px;
+        height:36px;
+    }
+
 /* ================================================
    responsive.css — Anand (Team Lead)
    Media Queries — Mobile / Tablet / Desktop
-================================================== */
 
 /* ── Breakpoints ──────────────────────────────── */
 /*

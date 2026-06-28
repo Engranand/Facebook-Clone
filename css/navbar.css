@@ -1,0 +1,154 @@
+/* ===========================
+   Facebook Navbar
+=========================== */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f0f2f5;
+}
+
+/* Navbar */
+
+.navbar{
+    height: 60px;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 18px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+/* Left */
+
+.nav-left{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo i{
+    font-size: 42px;
+    color: #1877f2;
+    cursor: pointer;
+}
+
+.search-box{
+    display: flex;
+    align-items: center;
+    background: #f0f2f5;
+    padding: 10px 15px;
+    border-radius: 30px;
+}
+
+.search-box i{
+    color: gray;
+}
+
+.search-box input{
+    border: none;
+    outline: none;
+    background: transparent;
+    margin-left: 10px;
+    font-size: 15px;
+    width: 220px;
+}
+
+/* Center */
+
+.nav-center{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.nav-item{
+    width: 110px;
+    height: 58px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: gray;
+    font-size: 24px;
+    transition: 0.3s;
+    border-radius: 8px;
+}
+
+.nav-item:hover{
+    background: #f2f2f2;
+}
+
+.nav-item.active{
+    color: #1877f2;
+    border-bottom: 3px solid #1877f2;
+}
+
+/* Right */
+
+.nav-right{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.icon-box{
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background: #e4e6eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    transition: .3s;
+}
+
+.icon-box:hover{
+    background: #d8dadf;
+}
+
+.icon-box i{
+    font-size: 18px;
+}
+
+.badge{
+    position: absolute;
+    top: -3px;
+    right: -3px;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: red;
+    color: white;
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+/* Profile Icon */
+
+.profile-icon{
+    font-size: 18px;
+}
+
+.profile-icon i{
+    color: #050505;
+}
